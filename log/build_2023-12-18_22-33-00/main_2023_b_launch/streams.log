@@ -1,0 +1,45 @@
+[0.054s] Invoking command in '/home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble /usr/bin/cmake /home/kariya/Git/2023_off_team_b_main/src/main_2023_b_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.152s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.209s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.628s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.690s] -- Added test 'lint_cmake' to check CMake code style
+[0.691s] -- Added test 'xmllint' to check XML markup files
+[0.693s] -- Configuring done
+[0.696s] -- Generating done
+[0.697s] -- Build files have been written to: /home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch
+[0.703s] Invoked command in '/home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble /usr/bin/cmake /home/kariya/Git/2023_off_team_b_main/src/main_2023_b_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch
+[0.704s] Invoking command in '/home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble /usr/bin/cmake --build /home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch -- -j16 -l16
+[0.724s] Invoked command in '/home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble /usr/bin/cmake --build /home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch -- -j16 -l16
+[0.746s] Invoking command in '/home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble /usr/bin/cmake --install /home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch
+[0.748s] -- Install configuration: ""
+[0.749s] -- Execute custom install script
+[0.749s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch//launch/main_2023_b.launch.xml
+[0.753s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/ament_index/resource_index/package_run_dependencies/main_2023_b_launch
+[0.756s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/ament_index/resource_index/parent_prefix_path/main_2023_b_launch
+[0.760s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/environment/ament_prefix_path.sh
+[0.763s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/environment/ament_prefix_path.dsv
+[0.767s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/environment/path.sh
+[0.770s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/environment/path.dsv
+[0.774s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/local_setup.bash
+[0.778s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/local_setup.sh
+[0.781s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/local_setup.zsh
+[0.784s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/local_setup.dsv
+[0.787s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/package.dsv
+[0.790s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/ament_index/resource_index/packages/main_2023_b_launch
+[0.793s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/cmake/main_2023_b_launchConfig.cmake
+[0.796s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/cmake/main_2023_b_launchConfig-version.cmake
+[0.799s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch/share/main_2023_b_launch/package.xml
+[0.804s] Invoked command in '/home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble /usr/bin/cmake --install /home/kariya/Git/2023_off_team_b_main/build/main_2023_b_launch

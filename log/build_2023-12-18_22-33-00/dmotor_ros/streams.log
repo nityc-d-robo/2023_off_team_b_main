@@ -1,0 +1,71 @@
+[0.055s] Invoking command in '/home/kariya/Git/2023_off_team_b_main/build/dmotor_ros': CMAKE_PREFIX_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/controller_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/lib:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kariya/Git/2023_off_team_b_main/src/dmotor_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.545s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.636s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.673s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.678s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.685s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.770s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.772s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.916s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.980s] -- Found Threads: TRUE  
+[1.096s] -- Found drobo_interfaces: 0.0.0 (/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/share/drobo_interfaces/cmake)
+[1.113s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.176s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.179s] -- Configured cppcheck include dirs: /home/kariya/Git/2023_off_team_b_main/src/dmotor_ros/include
+[1.179s] -- Configured cppcheck exclude dirs and/or files: 
+[1.182s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.182s] -- Configured cpplint exclude dirs and/or files: 
+[1.184s] -- Added test 'lint_cmake' to check CMake code style
+[1.187s] -- Added test 'uncrustify' to check C / C++ code style
+[1.187s] -- Configured uncrustify additional arguments: 
+[1.188s] -- Added test 'xmllint' to check XML markup files
+[1.189s] -- Configuring done
+[1.198s] -- Generating done
+[1.200s] -- Build files have been written to: /home/kariya/Git/2023_off_team_b_main/build/dmotor_ros
+[1.209s] Invoked command in '/home/kariya/Git/2023_off_team_b_main/build/dmotor_ros' returned '0': CMAKE_PREFIX_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/controller_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/lib:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/kariya/Git/2023_off_team_b_main/src/dmotor_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros
+[1.210s] Invoking command in '/home/kariya/Git/2023_off_team_b_main/build/dmotor_ros': CMAKE_PREFIX_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/controller_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/lib:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kariya/Git/2023_off_team_b_main/build/dmotor_ros -- -j16 -l16
+[1.234s] [ 50%] [32mBuilding CXX object CMakeFiles/dmotor_ros.dir/src/main.cpp.o[0m
+[8.413s] [100%] [32m[1mLinking CXX executable dmotor_ros[0m
+[8.736s] [100%] Built target dmotor_ros
+[8.742s] Invoked command in '/home/kariya/Git/2023_off_team_b_main/build/dmotor_ros' returned '0': CMAKE_PREFIX_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/controller_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/lib:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kariya/Git/2023_off_team_b_main/build/dmotor_ros -- -j16 -l16
+[8.762s] Invoking command in '/home/kariya/Git/2023_off_team_b_main/build/dmotor_ros': CMAKE_PREFIX_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/controller_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/lib:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kariya/Git/2023_off_team_b_main/build/dmotor_ros
+[8.765s] -- Install configuration: ""
+[8.765s] -- Execute custom install script
+[8.766s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/lib/dmotor_ros/dmotor_ros
+[8.770s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/ament_index/resource_index/package_run_dependencies/dmotor_ros
+[8.774s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/ament_index/resource_index/parent_prefix_path/dmotor_ros
+[8.778s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/environment/ament_prefix_path.sh
+[8.782s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/environment/ament_prefix_path.dsv
+[8.785s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/environment/path.sh
+[8.788s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/environment/path.dsv
+[8.791s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/local_setup.bash
+[8.794s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/local_setup.sh
+[8.797s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/local_setup.zsh
+[8.800s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/local_setup.dsv
+[8.803s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/package.dsv
+[8.806s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/ament_index/resource_index/packages/dmotor_ros
+[8.810s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/cmake/dmotor_rosConfig.cmake
+[8.813s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/cmake/dmotor_rosConfig-version.cmake
+[8.816s] -- Symlinking: /home/kariya/Git/2023_off_team_b_main/install/dmotor_ros/share/dmotor_ros/package.xml
+[8.820s] Invoked command in '/home/kariya/Git/2023_off_team_b_main/build/dmotor_ros' returned '0': CMAKE_PREFIX_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces:/home/kariya/Git/2023_off_team_b_controller/install/controller_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/main_2023_b_launch:/home/kariya/Git/2023_off_team_b_main/install/dmotor_ros:/home/kariya/Git/2023_off_team_b_controller/install/swerve_drive_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kariya/Git/2023_off_team_b_main/install/drobo_interfaces/lib:/home/kariya/Git/2023_off_team_b_controller/install/drobo_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/kariya/Git/2023_off_team_b_main/build/dmotor_ros

@@ -1,0 +1,7 @@
+<?xml version='1.0' ?>
+
+<launch>
+    <!-- dmotor_ros -->
+    <node pkg="dmotor_ros" exec="dmotor_ros"/>
+    
+</launch>
